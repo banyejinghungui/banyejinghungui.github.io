@@ -11,6 +11,8 @@ title: Tomcat Installation
 ## 文档目的
 在Linux上安装tomcat，并使用tomcat进行发布。
 
+
+![_config.yml]({{ site.baseurl }}/images/2017-11-01-Tomcat Installation/1.png)
 ## 基础知识
 Tomcat 服务器是一个免费的开放源代码的Web 应用服务器，属于轻量级应用服务器，在中小型系统和并发访问用户不是很多的场合下被普遍使用，是开发和调试JSP 程序的首选。
 
