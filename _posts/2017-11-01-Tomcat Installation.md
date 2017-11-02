@@ -4,6 +4,7 @@ title: Tomcat Installation
 ---
 
 # Tomcat部署及发布文档
+# Tomcat部署及发布文档
 ### 创建时间：2016-06-14
 ### 更新时间：2017.02.10
 
@@ -19,12 +20,8 @@ conf：Tomcat的配置文件，如server.xml(Tomcat服务器配置文件)和web.
 webapps：存放web applications，用户自己需要部署的应用程序也放到此目录。
 work：tomcat运行时生成的临时文件，包括jsp编译后产生的class文件等。
 logs：存放日志文件。
-temp：JVM用于存放临时文件的目录(java.io.tmpdir)。  
-
-## 常用命令
-开启tomcat(一定要进入到bin文件夹才能执行脚本，否则日志会出问题!）	cd tomcat/bin/
-./startup.sh
-关闭tomcat	cd tomcat/bin/
+temp：JVM用于存放临时文件的目录(java.io.tmpdir)。  ## 常用命令
+开启tomcat(一定要进入到bin文件夹才能执行脚本，否则日志会出问题!）	cd tomcat/bin/./startup.sh关闭tomcat	cd tomcat/bin/
 ./shutdown.sh
 查看tomcat日志	tail  -f  tomcat/logs/catalina.out
 查看端口	netstat  -ntlp
